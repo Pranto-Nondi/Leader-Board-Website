@@ -48,10 +48,33 @@
     font-size: 16px;
     color: #FFFFFF;
 }
+
 /* main part */
-/* section 1 */
+.top-players{
+    display: flex;
+    justify-content: center;
+}
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 17px 10px;
+    width: 75%;
+    padding-top: 30px;
+   
 
-
+}
+.player{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px 10px;
+   
+}
+.player img {
+    width: 56px;
+    height: 56px;
+}
 
 
 
@@ -72,7 +95,8 @@
         gap: 8px;
 
     }
-    .nav-right-flex img{
+
+    .nav-right-flex img {
         margin-bottom: 6px;
     }
 }
