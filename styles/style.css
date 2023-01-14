@@ -148,15 +148,13 @@
     height: 104px;
 }
 
-
-/* use media query for mobile devices */
+/* use media query for mobile  */
 
 @media only screen and (max-width:767px) {
 
     /* navbar part */
     .nav-container,
     .nav-right-flex {
-        display: flex;
         flex-direction: column;
         height: 16%;
         gap: 8px;
@@ -181,6 +179,24 @@
     .player,.blog {
         width: 100%;
         padding: 10px;
+    }
+    
+}
+/* use media query for tablet */
+
+@media only screen and (max-width:992px) {
+
+    /* navbar part */
+    /* players and blogs and course part */
+    
+     .blogs,.courses{
+        padding: 0 30px;
+      
+     }
+    .player,.blog{
+        width: 100%;
+        padding: 10px;
+        
     }
     
 }
