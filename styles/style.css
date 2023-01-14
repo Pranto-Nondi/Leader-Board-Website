@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-
+   
 }
 
 .common-width {
@@ -140,7 +140,7 @@
     grid-template-columns: repeat(3,1fr);
     gap: 40px;
     margin-bottom: 20px;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
    
 }
 .course img {
@@ -187,18 +187,18 @@
 @media only screen and (max-width:992px) {
 
     /* navbar part */
-    .nav-container{
-       
-    }
+   
     /* players and blogs and course part */
     
-     .blogs,.courses{
-        padding: 0 30px;
+     .blogs,.courses,.course{
+      
+        margin: 0 auto;
       
      }
-    .player,.blog{
+     
+    .player,.blog,.courses{
         width: 100%;
-        padding: 10px;
+      
         
     }
     
