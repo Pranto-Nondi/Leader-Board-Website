@@ -187,6 +187,9 @@
 @media only screen and (max-width:992px) {
 
     /* navbar part */
+    .nav-container{
+       
+    }
     /* players and blogs and course part */
     
      .blogs,.courses{
